@@ -1,273 +1,79 @@
 {
-  "Quiz": {
-    "title": "Object-Oriented Programming Quiz",
-    "description": "Test your knowledge of OOP concepts.",
-    "questions": [
-      {
-        "type": "Question",
-        "questionText": "What is the primary purpose of encapsulation?",
-        "options": [
-          {
-            "text": "To restrict access to certain components",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "To allow multiple instances of a class",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "To inherit properties from another class",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "To define a blueprint for objects",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "What keyword is used to inherit a class in most OOP languages?",
-        "options": [
-          {
-            "text": "extends",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "inherits",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "include",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "implements",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "Which of the following is NOT a pillar of OOP?",
-        "options": [
-          {
-            "text": "Encapsulation",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Inheritance",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Polymorphism",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Abstraction",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Compilation",
-            "isCorrect": true,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "What does polymorphism allow in OOP?",
-        "options": [
-          {
-            "text": "To create multiple objects from a class",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "To define methods with the same name but different implementations",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "To restrict access to class members",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "To combine multiple classes into one",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "In OOP, what is an object?",
-        "options": [
-          {
-            "text": "A collection of variables and methods",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "A blueprint for creating classes",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A type of variable",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A function that returns a value",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "What is an interface in OOP?",
-        "options": [
-          {
-            "text": "A class that cannot be instantiated",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A contract that classes can implement",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "A method that has no body",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A type of inheritance",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "Which of the following is an example of encapsulation?",
-        "options": [
-          {
-            "text": "A class using private variables",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "A class inheriting from another class",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Two classes sharing methods",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A method that performs multiple actions",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "What is the term for a method that is shared by all instances of a class?",
-        "options": [
-          {
-            "text": "Instance method",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Static method",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "Private method",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "Protected method",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "In which scenario would you use abstraction?",
-        "options": [
-          {
-            "text": "When implementing complex algorithms",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "When you want to expose only essential features of an object",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "When creating new classes from existing ones",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "When you need to implement multiple interfaces",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      },
-      {
-        "type": "Question",
-        "questionText": "What is a constructor in OOP?",
-        "options": [
-          {
-            "text": "A method that initializes a class object",
-            "isCorrect": true,
-            "points": 10
-          },
-          {
-            "text": "A method that creates a class",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A method that destroys an object",
-            "isCorrect": false,
-            "points": 10
-          },
-          {
-            "text": "A variable that holds data",
-            "isCorrect": false,
-            "points": 10
-          }
-        ]
-      }
-    ]
-  }
+  "questions": [
+    {
+      "question": "What is the main principle of Object-Oriented Programming?",
+      "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which keyword is used to create a class in JavaScript?",
+      "options": ["function", "class", "define", "new"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What do we call a blueprint for creating objects?",
+      "options": ["Function", "Method", "Class", "Instance"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is it called when a class inherits properties and methods from another class?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which of the following is NOT a feature of OOP?",
+      "options": ["Data abstraction", "Encapsulation", "Static typing", "Inheritance"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is polymorphism?",
+      "options": [
+        "Ability to create multiple objects",
+        "Ability to use the same method in different ways",
+        "Ability to hide internal state",
+        "Ability to create subclasses"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of constructors in OOP?",
+      "options": [
+        "To destroy objects",
+        "To initialize new objects",
+        "To define methods",
+        "To create variables"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What keyword is used to access the properties of the current object in a class?",
+      "options": ["this", "self", "current", "that"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the term for a class that cannot be instantiated?",
+      "options": ["Abstract class", "Concrete class", "Base class", "Derived class"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which of the following best describes encapsulation?",
+      "options": [
+        "Combining data and methods in a single unit",
+        "Hiding the implementation details from the user",
+        "Creating a new version of a method",
+        "Reusing existing code"
+      ],
+      "correctOption": 1,
+      "points": 20
+    }
+  ]
 }
